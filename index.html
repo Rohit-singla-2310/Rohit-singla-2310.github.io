@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>TimeTable</title>
+  <link rel = "icon" href = "https://assets1.lottiefiles.com/private_files/lf30_njyaxxst.json" type = "image/x-icon">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Bootstrap -->
+  <!-- CSS only -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+  <!-- ----------------------------------- -->
+  <!-- <link rel="stylesheet" href="C:\complete web development boot camp\Time Table\style.css"> -->
+  <style>
+    table, tbody, thead, td, th
+    {
+        border:2px solid black;
+    }
+    td:hover
+    {
+      background-color: rgba(247, 102, 150, 0.822);
+      border: 1.5px solid black;
+    }
+    #main
+    {
+        background-color: rgb(231, 116, 187);
+        margin: 15px 10%;
+        padding: 10px 12px;
+        text-align: center;
+        font-size: 300%;
+        border-radius: 50px;
+        /* border: 1px solid black; */
+    }
+  </style>
+
+</head>
+
+<body>
+  <!-- Build your first site here -->
+<h1 id="main">Department of Computer Science</h1>
+</nav>
+<section class="TABLE" >
+  <h1 class="text-center">TIME TABLE</h1>
+  <table class="table table-bordered">
+    <thead>
+      <tr bgcolor="#828182" >
+        <th scope="col">Time</th>
+        <th scope="col">Monday</th>
+        <th scope="col">Tuesday</th>
+        <th scope="col">Wednesday</th>
+        <th scope="col">Thusday</th>
+        <th scope="col">Friday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th bgcolor="#ebaee3" scope="row">8:00 - 8:50</th>
+        <td class="table-warning" rowspan="2" style="vertical-align:middle"><a href="https://tiet.zoom.us/my/csed17/" target="_blank"><b>Computer Graphics lab (UCS505)</b></a></td>
+        <td bgcolor="pink"><a href="https://tiet.zoom.us/my/csed21/" target="_blank"><b>Predictive analysis (UCS654)</b></a></td>
+        <td class="table-success"><a href="https://tiet.zoom.us/my/csed21/" target="_blank"><b>Predictive analysis (UCS654)</b></a></td>
+        <td class="table-warning"><a href="https://tiet.zoom.us/my/csed/" target="_blank"><b>CORPORATE FINANCE (UHU008)</b></a></td>
+        <td bgcolor="#bbbebf"></td>
+      </tr>
+      <tr>
+        <th bgcolor="#e69edd" scope="row">8:50 - 9:40</th>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="#bbbebf"></td>
+        <td class="table-warning"><a href="https://tiet.zoom.us/my/CSED8/" target="_blank"><b>Theory of computation (UCS701)</b></a></td>
+        <td bgcolor="#bbbebf"></td>
+      </tr>
+      <tr>
+        <th bgcolor="#e695dc" scope="row">9:40 - 10:30</th>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="pink"><a href="https://tiet.zoom.us/my/CSED14/" target="_blank"><b>Theory of computation (UCS701)</b></a></td>
+        <td class="table-success" rowspan="2" style="vertical-align:middle"><a href="https://tiet.zoom.us/my/csed16/" target="_blank"><b>Quantum Computing lab (UCS619)</b></a></td>
+        <td class="table-warning"><a href="https://tiet.zoom.us/my/CSED10/" target="_blank"><b>Computer Graphics (UCS505)</b></a></td>
+        <td bgcolor="#bbbebf"></td>
+      </tr>
+      <tr>
+        <th bgcolor="#e08bd6" scope="row">10:30 - 11:20</th>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="pink"><a href="https://tiet.zoom.us/my/CSED14/" target="_blank"><b>Computer Graphics (UCS505)</b></a></td>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="#bbbebf"></td>
+      </tr>
+      <tr>
+        <th bgcolor="#de85d3" scope="row">11:20 - 12:10</th>
+        <td class="table-warning"><a href="https://tiet.zoom.us/my/CSED12/" target="_blank"><b>Theory of Computation (UCS701)</b></a></td>
+        <td bgcolor="pink"><a href="https://tiet.zoom.us/my/CSED11/" target="_blank"><b>Theory of Computation TUT (UCS701)</b></a></td>
+        <td class="table-success" rowspan="2" style="vertical-align:middle"><a href="https://tiet.zoom.us/my/csed17/" target="_blank"><b>Data Science lab (UCS655)</b></a></td>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="#bbbebf"></td>
+      </tr>
+      <tr>
+        <th bgcolor="#e080d4" scope="row">12:10 - 1:00</th>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="#bbbebf"></td>
+        <td class="table-warning"><a href="https://tiet.zoom.us/my/csed5/" target="_blank"><b>Quantum Computing (UCS619)</b></a></td>
+        <td bgcolor="#bbbebf"></td>
+      </tr>
+      <tr>
+        <th bgcolor="#de73d1" scope="row">1:00 - 1:50</th>
+        <td class="table-warning"><a href="https://tiet.zoom.us/my/csed/" target="_blank"><b>Corporate Finance (UHU008)</b></a></td>
+        <td bgcolor="pink"><a href="https://tiet.zoom.us/my/CSED13/" target="_blank"><b>Data Science (UCS655)</b></a></td>
+        <td bgcolor="#bbbebf"></td>
+        <td class="table-warning"><a href="https://tiet.zoom.us/my/csed/" target="_blank"><b>Corporate Finance (UHU008)</b></a></td>
+        <td bgcolor="#bbbebf"></td>
+      </tr>
+      <tr>
+        <th bgcolor="#de6ad0" scope="row">1:50 - 2:40</th>
+        <td class="table-warning"><a href="https://tiet.zoom.us/my/csed14/" target="_blank"><b>Computer Graphics (UCS505)</b></a></td>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="#bbbebf"></td>
+      </tr>
+      <tr>
+        <th bgcolor="#e364d3" scope="row">2:40 - 3:30</th>
+        <td class="table-warning"><a href="https://tiet.zoom.us/my/csed14/" target="_blank"><b>Quantum Computing (UCS619)</b></a></td>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="#bbbebf"></td>
+      </tr>
+      <tr>
+        <th bgcolor="#e657d4" scope="row">3:30 - 4:20</th>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="#bbbebf"></td>
+        <td class="table-warning" rowspan="2" style="vertical-align:middle"><a href="https://tiet.zoom.us/my/csed22/" target="_blank"><b>Predictive analysis lab (UCS654)</b></a></td>
+        <td  bgcolor="#eb978f"><a href="https://tiet.zoom.us/my/csed/" target="_blank"><b>Corporate Finance (UHU008)</b></a></td>
+      </tr>
+      <tr>
+        <th bgcolor="#e346d0" scope="row">4:20 - 5:10</th>
+        <td class="table-warning"><a href="https://tiet.zoom.us/my/CSED13/" target="_blank"><b>Data Science (UCS655)</b></a></td>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="#bbbebf"></td>
+        <td bgcolor="#eb978f"><a href="https://tiet.zoom.us/my/csed11/" target="_blank"><b>Quantum Computing (UCS619)</b></a></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+    <!-- Footer -->
+    <footer class="page-footer font-small blue">
+
+      <!-- Copyright -->
+      <div class="footer-copyright text-center py-3">© 2020 Copyright:
+        Built with love by <b>Rohit</b>.
+      </div>
+      <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+
+</body>
+
+</html>
